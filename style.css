@@ -1,0 +1,32 @@
+#load {
+    width: 250px;
+    height: 50px;
+    backround: blue;
+    top: 750px;
+    left: 150px;
+    
+    animation: Animation2;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+img {
+  height: 500px;
+  width: 500px;
+  top: 500px;
+  left: 150px;
+}
+h1 {
+  color: green;
+  top: 0px;
+  left: 150px;
+}
+@keyframes Animation{
+    100%{transform: rotateZ(360deg)}
+}
+@keyframes Animation2{
+    50%{backround-color: lightblue;}
+    100%{backround-color: blue;}
+}
