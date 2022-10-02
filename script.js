@@ -11,7 +11,7 @@ window.setInterval(function(){
 }, 10)
 
 window.setInterval(function(){
-    if(ping >= 102){
+    
        ping = 100;
-    }
-}, 10)
+    
+}, 20)
