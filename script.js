@@ -14,4 +14,4 @@ window.setInterval(function(){
     
        ping = 100;
     
-}, 20)
+}, 200)
