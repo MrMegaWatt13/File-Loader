@@ -1,7 +1,8 @@
 #load {
     width: 250px;
     height: 50px;
-    backround: blue;
+    backround-color: blue;
+    border: 5px solid black;
     top: 750px;
     left: 150px;
     
