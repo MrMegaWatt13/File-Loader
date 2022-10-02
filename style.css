@@ -6,7 +6,7 @@
     top: 750px;
     left: 150px;
     
-    animation: Animation2;
+    animation: Animation;
     animation-play-state: running;
     animation-iteration-count: infinite;
     animation-delay: 0;
