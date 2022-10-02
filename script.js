@@ -10,6 +10,8 @@ window.setInterval(function(){
        document.getElementById("ping").innerHTML = ping;
 }, 10)
 
-if(ping >= 200){
-   ping = 100
+window.setInterval(function(){
+    if(ping >= 102){
+       ping = 100;
+    }
 }
